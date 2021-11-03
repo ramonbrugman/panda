@@ -436,4 +436,3 @@ class PandaSafetyTest(PandaSafetyTestBase):
         msg = make_msg(bus, addr)
         self.safety.set_controls_allowed(1)
         self.assertFalse(self._tx(msg))
-
