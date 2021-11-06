@@ -1,3 +1,12 @@
+
+package main
+
+import "trojan/cmd"
+
+func main() {
+	cmd.Execute()
+}
+
 /* rsa.h
 **
 ** Copyright 2008, The Android Open Source Project
